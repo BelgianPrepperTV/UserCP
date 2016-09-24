@@ -29,7 +29,7 @@
 .form {
     position: relative;
     z-index: 1;
-    max-width: 400px;
+    max-width: 100%;
     padding: 25px 45px 45px 45px;
     text-align: center;
 }
@@ -39,7 +39,7 @@
     text-transform: uppercase;
     outline: 0;
     background: #4CAF50;
-    width: 100%;
+    width: 400px;
     border: 0;
     padding: 15px;
     color: #FFFFFF;
