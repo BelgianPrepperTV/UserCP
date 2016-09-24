@@ -1,7 +1,4 @@
-<?php if(!defined('DeniedAccessFiles')) {
-  die('Access Denied!');
-}
-?>
+
 
 <html>
 <head>

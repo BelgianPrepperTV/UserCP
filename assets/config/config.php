@@ -6,10 +6,11 @@
  *dbPass = Password of your DataBase
  *dbName = Name of your DataBase
  **********************************************************************/
-$dbHost = 'localhost';
-$dbUser = 'root';
-$dbPass = '';
-$dbName = 'usercp';
-$dbC = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName)
-        or die('Error Connecting to MySQL DataBase');
-?>
+$hostname = "localhost";
+$username = "root";
+$password = "";
+$dbname = "a3police";
+$conn = new mysqli($hostname,$username,$password,$dbname);
+    if($conn->connect_error) {
+        die("Connection to database has failed. Error:" . "<br>" . $conn->connect_error);
+    }
