@@ -10,9 +10,7 @@
       </div>
       <div class="form">
          <form class="login-form">
-           <input type="text" placeholder="Display Name"/>
-           <input type="password" placeholder="Password"/>
-           <button>login</button>
+           <button>Sign in using Steam</button>
            <p class="message">Forgot your Password? <a href="#">Click here to recover</a>!</p>
          </form>
        </div>
